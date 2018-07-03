@@ -6,7 +6,7 @@
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //This programs creates a pyramid that is composed of spaces and X's that is twenty rows high.
 //
-#include "stdafx.h"
+
 #include<iostream>
 
 using std::cout;	//Program uses cout
@@ -36,6 +36,7 @@ int main()
 		
 		cout << endl;										//Move to the next line
 	}
+   cin.get();
     return 0;
 }//End funtion main
 
